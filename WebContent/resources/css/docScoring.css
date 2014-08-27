@@ -1,0 +1,41 @@
+.header{
+	height: 20%;
+}
+
+.footer{
+	height: 20%;
+	text-align: right;
+}
+
+.footer hr{
+	height: 5px;
+	background-color: black;
+}
+
+.content{
+	vertical-align: middle;
+}
+
+.validation{
+	display:block;
+}
+
+.validationDescription{
+	display: inline-block;
+}
+
+.validationCheckBox{
+	display: inline-block;
+}
+
+input[type="checkbox"]:checked + label {
+  color: #f00;
+  font-style: normal;
+}
+
+.validationHelpIcon{
+	width: 25px;
+	height: 25px;
+	background-image: url('../images/helpIcon.jpg');
+	display: inline-block;
+}
